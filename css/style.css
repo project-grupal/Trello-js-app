@@ -1,12 +1,12 @@
 :root {
-    --bg-color: #1d3557;
-    --navbar-color: #457b9d;
-    --footer-color: #457b9d;
-    --cards-color: #a8dadc;
+    --bg-color: #000000;
+    --navbar-color: #2a2a2a;
+    --footer-color: #000000;
+    --cards-color: #2a2a2a;
     --radius: 5px;
     --padding: 10px;
     --bg-color-card: #457b9d;
-    --btn-color: #f1faee;
+    --btn-color: #ffffff;
     --link-web: #e63946;
 }
 
@@ -18,7 +18,7 @@
 body {
     font-family: 'Inter', sans-serif;
     background-color: var(--bg-color);
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 /* ***** */
@@ -60,7 +60,7 @@ body {
     padding-top: var(--padding);
     border-radius: var(--radius);
     height: 5rem;
-    box-shadow: 0 0px 5px #007aff;
+    box-shadow: 0 0px 5px #ffffff;
 }
 
 .to-do {
@@ -73,7 +73,7 @@ body {
 
 .to-do>h3 {
     font-size: 30px;
-    box-shadow: 0 0px 5px aquamarine;
+    
 }
 
 .doing {
@@ -123,13 +123,12 @@ a {
 }
 
 a:hover {
-    color: #a8dadc;
+    color: #f3f3f3;
 }
 
 .link-web {
-    color: var(--bg-color);
+    color: #ffffff;;
     padding: 10px;
-
 }
 
 /* ******* */
@@ -146,7 +145,7 @@ button {
     font-size: 1.2em;
     transition: all 300ms;
     margin-top: 10px;
-    box-shadow: 0 0px 5px aquamarine;
+    box-shadow: 0 0px 5px rgb(244, 244, 244);
 }
 
 button:hover {

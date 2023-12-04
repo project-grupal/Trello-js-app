@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         function dragEnter() {
-            this.style.border = '5px solid yellow';
+            this.style.border = '5px solid  white';
         }
 
         function dragLeave() {
