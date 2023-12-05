@@ -61,8 +61,9 @@ body {
     border-radius: var(--radius);
     height: 5rem;
     box-shadow: 0 0px 5px #ffffff;
+    
 }
-
+/* wuirreige */
 .to-do {
     grid-area: todo;
     background-color: var(--cards-color);
